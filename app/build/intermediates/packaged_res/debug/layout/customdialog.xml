@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:gravity="center"
+        android:text="Enter Mobile Number to Varify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobile Number"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:id="@+id/edtname"/>
+    <Button
+        android:id="@+id/btnok"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Ok "/>
+</LinearLayout>
